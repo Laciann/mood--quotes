@@ -4,8 +4,11 @@ let quoteText = document.getElementById('quoteText');
 let quoteAuthor = document.getElementById('quoteAuthor');
 
 const quotes = [
- [['Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes.'],['Abhishek']],
+
+ [['Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes.'],['Jack Handey']],
+
  [['you like direflies'],['Jack Handey']],
+
 ];
 
 rand.onclick =  (e) => {
