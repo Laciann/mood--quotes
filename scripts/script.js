@@ -67,7 +67,7 @@ const quotes = [
 rand.onclick =  (e) => {
     randomIndex = Math.round(Math.random()*(quotes.length-1))
     quoteData = quotes[randomIndex];
-    quote = quoteData[randomIndex];
+    quote = quoteData[0][0];
     author = quoteData[1][0];
     quoteText.textContent = quote;
     quoteAuthor.textContent = author;
